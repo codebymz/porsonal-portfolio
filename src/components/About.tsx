@@ -128,19 +128,6 @@ export const About: React.FC = () => {
                 </p>
               </div>
             </div>
-
-            {/* Philosophy Standard Card */}
-            <div className="p-5 rounded-2xl bg-slate-950/75 border border-cyan-500/30 backdrop-blur-xl shadow-lg">
-              <p className="text-[11px] font-mono text-cyan-400 uppercase tracking-widest mb-1 font-semibold">
-                // Engineering Standard
-              </p>
-              <blockquote className="text-sm font-medium text-slate-100 italic">
-                &ldquo;{portfolioData.personal.motto}&rdquo;
-              </blockquote>
-              <span className="text-[11px] text-slate-400 mt-1 block font-mono">
-                Obsessed with high availability, robust RAG systems, and resilient code.
-              </span>
-            </div>
           </div>
 
           {/* Story & Biography */}
